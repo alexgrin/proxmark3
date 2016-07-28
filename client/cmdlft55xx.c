@@ -1540,7 +1540,7 @@ int CmdT55xxBruteForce(const char *Cmd) {
 
 static command_t CommandTable[] = {
   {"help",      CmdHelp,           1, "This help"},
-	{"bruteforce",CmdT55xxBruteForce,0, "<start password> <end password> [i <*.dic>] Simple bruteforce attack to find password"},
+  {"bruteforce",CmdT55xxBruteForce,0, "<start password> <end password> [i <*.dic>] Simple bruteforce attack to find password"},
   {"config",    CmdT55xxSetConfig, 1, "Set/Get T55XX configuration (modulation, inverted, offset, rate)"},
   {"detect",    CmdT55xxDetect,    1, "[1] Try detecting the tag modulation from reading the configuration block."},
   {"read",      CmdT55xxReadBlock, 0, "b <block> p [password] [o] [1] -- Read T55xx block data. Optional [p password], [override], [page1]"},
